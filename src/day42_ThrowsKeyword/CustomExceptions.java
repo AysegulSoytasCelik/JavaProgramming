@@ -1,0 +1,32 @@
+package day42_ThrowsKeyword;
+
+class FadyException extends RuntimeException{
+    public FadyException(){
+        super("Time for a short break");
+    }
+
+    public FadyException(String message){
+        super(message);
+    }
+
+}
+
+
+
+public class CustomExceptions {
+
+
+    public static void main(String[] args) {
+
+
+        throw new FadyException("It's time for lunch break");
+
+
+
+
+
+
+
+    }
+
+}
